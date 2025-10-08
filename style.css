@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.pag_cadastro {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+form {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.campo_form {
+    padding: 9px 0 7px 8px;
+    border: 1px solid rgb(118, 118, 118);
+    background-color: #121212;
+    border-radius: 2px;
+    height: 20px;
+    width: 250px;
+}
+
+input::placeholder {
+    color: rgb(160, 160, 160);
+    font-size: 12px;
+}
+
+.submit {
+    margin: 10px;
+    background-color: #326533;
+    color: white;
+    height: 32px;
+    width: 268px;
+    border: 0px none white;
+    border-radius: 8px;
+}
