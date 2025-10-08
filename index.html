@@ -1,21 +1,133 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reciclagem e Saneamento | Informações </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recicla+ | Reciclagem & Saneamento</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Plataforma que promove reciclagem e saneamento, alinhada aos Objetivos da ONU.">
 </head>
 <body>
-    <header>
-
-    </header>
-
-    <main>
-
-    </main>
-
-    <footer>
-
-    </footer>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="imagens/Logo.png" alt="Logo Recicla+" height="200" width="200">
+        <h1>Recicla+</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#reciclagem">Reciclagem</a></li>
+          <li><a href="#saneamento">Saneamento</a></li>
+          <li><a href="#impacto">Impacto & Dados</a></li>
+          <li><a href="#ods">ODS</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <br>
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <h2>Pequenas atitudes, grandes transformações 🌱</h2>
+        <p>
+          No Brasil e no mundo, muitos desafios ambientais se concentram no manejo dos resíduos e no acesso ao saneamento. Nossa plataforma visa conscientizar,
+          promover práticas sustentáveis e apresentar soluções que conectem pessoas, tecnologias e políticas públicas para um futuro mais limpo e justo.
+        </p>
+        <a href="register.html" class="btn-primary">Acessar plataforma</a>
+      </div>
+    </section>
+    <br>
+    <section id="reciclagem" class="section">
+      <div class="container">
+        <h2><i class="fa-solid fa-recycle"></i> Reciclagem Responsável</h2>
+        <p>
+          Segundo dados do SNIS e reportagens recentes, apenas cerca de <strong>2% dos resíduos sólidos urbanos (RSU)</strong> produzidos no Brasil são efetivamente reciclados.
+          Isso representa um desperdício enorme de materiais que poderiam voltar à cadeia produtiva.
+        </p>
+        <div class="cards">
+          <div class="card">
+            <img src="imagens/ColetaSeletiva.png" alt="Coleta seletiva" height="50" width="50">
+            <h3>Coleta Seletiva</h3>
+            <p>
+              A coleta seletiva consiste em separar na fonte (em casa, nas empresas) os materiais recicláveis (papel, plástico, vidro, metal), para que possam ser reaproveitados.
+            </p>
+          </div>
+          <div class="card">
+            <img src="imagens/EXcoleta.jpg" alt="Reciclagem de plástico" height="200" width="350">
+            <h3>Reciclagem de Plástico</h3>
+            <p>
+              Plásticos descartados inadequadamente acabam em rios e mares, causando impacto ambiental grave. Reutilizar e reciclar é essencial para reduzir essa poluição.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <section id="saneamento" class="section bg-light">
+      <div class="container">
+        <img src="imagens/Saneamento.png" alt="Saneamento básico" height="50" width="50">
+        <h2><i class="fa-solid fa-faucet-drip"></i> Saneamento como base da dignidade</h2>
+        <p>
+          De acordo com dados do SNIS (Sistema Nacional de Informações sobre Saneamento), cerca de <strong>16% da população brasileira não tem acesso à água tratada</strong>, e <strong>47% não estão ligados à rede de esgoto.</strong>  
+          Isso se traduz em milhões de pessoas sem condições adequadas para higiene, saúde e bem-estar.
+        </p>
+        <img src="imagens/EXsaneamento.jpg" alt="Sistema de saneamento básico" class="image-full" height="200" width="300">
+        <p>
+          A falta de saneamento contribui para doenças como diarreia, parasitoses, hepatite A e leptospirose. Estudos mostram que para cada <strong>R$ 1,00 investido em saneamento</strong>, há uma economia de até <strong>R$ 4,00 em gastos com saúde pública</strong>.
+        </p>
+      </div>
+    </section>
+    <br>
+    <section id="impacto" class="section">
+      <div class="container">
+        <h2><i class="fa-solid fa-chart-line"></i> Impacto & Dados Reais</h2>
+        <p>
+          • O Brasil lançou o <strong>Projeto Tietê</strong>, programa de despoluição do rio Tietê, que já consumiu bilhões e teve fases de avanços e desafios.
+          <br>
+          <br>
+          • Em 2019, 15 projetos ligados a água e saneamento foram finalistas no “Prêmio Cases de Sucesso ODS 6” no Brasil, demonstrando que iniciativas privadas compartilham soluções socioambientais relevantes.
+          <br>
+          <br>
+          • A política brasileira de resíduos sólidos (Lei 12.305/2010) estabelece a responsabilidade compartilhada: geradores, consumidores, empresas e governos devem atuar juntos. Porém, segundo reportagens, muitos municípios ainda destinam até 40% dos resíduos de forma inadequada (lixões).
+        </p>
+      </div>
+    </section>
+    <br>
+    <section id="ods" class="section">
+      <div class="container">
+        <h2><i class="fa-solid fa-globe"></i> Conexão com os ODS da ONU</h2>
+        <p>
+          Inspiramo-nos nos seguintes Objetivos de Desenvolvimento Sustentável (ODS) para orientar nossas ações:
+        </p>
+        <ul class="ods-list">
+          <a href="https://brasil.un.org/pt-br/sdgs/6">
+            <img src="imagens/SDG-6.svg" alt="ODS 6" height="100" width="100">
+          <li><strong>ODS 6:</strong> Água potável e saneamento — garantir acesso universal à água e saneamento seguros.</li>
+          </a>
+          <br>
+          <a href="https://brasil.un.org/pt-br/sdgs/12">
+            <img src="imagens/SDG-12.svg" alt="ODS 12" height="100" width="100">
+          <li><strong>ODS 12:</strong> Consumo e produção responsáveis — reduzir geração de resíduos, promover reciclagem e reutilização.</li>
+          </a>
+        </ul>
+        <p>
+          Nosso propósito é contribuir para essas metas, promovendo educação ambiental, boas práticas e engajamento comunitário.
+        </p>
+        <a href="https://brasil.un.org/pt-br/sdgs" target="_blank" class="btn-secondary">Saiba mais sobre as ODS</a>
+      </div>
+    </section>
+  </main>
+    <br>
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Recicla+ | Desenvolvido por Artur Gouvea Bertoluci e Felipe Nunino Scalice</p>
+      <p>
+        Currículos:
+        <a href="https://www.linkedin.com/in/arturgouveabertoluci/" target="_blank">Artur Gouvea Bertoluci</a> |
+        <a href="https://www.linkedin.com/in/felipenscalice" target="_blank">Felipe Nunino Scalice</a> 
+      </p>
+    </div>
+  </footer>
 </body>
 </html>
