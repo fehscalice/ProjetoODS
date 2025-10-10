@@ -1,21 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-.pag_cadastro {
+.body_cadastro {
     margin: 0;
-    padding: 0;
-    height: 100vh;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: black;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
 
+.pag_cadastro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(54, 54, 54);
+    padding: 40px;
+}
+
+.logoRecicla {
+    padding-bottom: 20px;
+    max-width: 130px;
+}
+
 form {
     display: flex;
-    gap: 6px;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
-    height: 100%;
+    align-items: center;
+    gap: 6px;
 }
 
 .campo_form {
@@ -33,11 +49,42 @@ input::placeholder {
 }
 
 .submit {
-    margin: 10px;
-    background-color: #326533;
-    color: white;
+    margin-top: 20px;
+    background-color: rgba(204, 245, 234, 0.5);
+    color: rgba(12, 13, 14, 1);
     height: 32px;
     width: 268px;
     border: 0px none white;
     border-radius: 8px;
+}
+
+.conectar-se {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+    border: 1px solid rgb(54, 54, 54);
+    width: 348px;
+    padding: 20px 0px;
+}
+
+.conectar-se p {
+    margin: 0;
+}
+
+#conectar {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(204, 245, 234, 0.5);
+}
+
+.footer_cadastro {
+    margin: 10px;
+    font-size: 14px;
+    color: rgb(118, 118, 118);
+
 }
