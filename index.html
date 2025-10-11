@@ -3,9 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Recicla+ | Reciclagem & Saneamento</title>
+  <title>Recicla+ | Reciclagem & Sustentabilidade</title>
   <link rel="stylesheet" href="style.css">
-  <meta name="description" content="Plataforma que promove reciclagem e saneamento, alinhada aos Objetivos da ONU.">
+  <meta name="description" content="Página web que promove reciclagem e saneamento, alinhada aos Objetivos da ONU.">
+  <link rel="icon" type="image/png" href="./assets/logoRecicla+.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
   <header>
@@ -18,114 +23,207 @@
         <ul>
           <li><a href="#inicio">Início</a></li>
           <li><a href="#reciclagem">Reciclagem</a></li>
-          <li><a href="#saneamento">Saneamento</a></li>
           <li><a href="#impacto">Impacto & Dados</a></li>
+          <li><a href="#comunidade">Comunidade</a></li>
           <li><a href="#ods">ODS</a></li>
         </ul>
       </nav>
     </div>
   </header>
-  <br>
   <main>
     <section id="inicio" class="hero">
       <div class="hero-content">
-        <h2>Pequenas atitudes, grandes transformações 🌱</h2>
+        <h2>Pequenas atitudes, grandes transformações <span class="destaque"></span></h2>
         <p>
-          No Brasil e no mundo, muitos desafios ambientais se concentram no manejo dos resíduos e no acesso ao saneamento. Nossa plataforma visa conscientizar,
-          promover práticas sustentáveis e apresentar soluções que conectem pessoas, tecnologias e políticas públicas para um futuro mais limpo e justo.
+          No Brasil e no mundo, muitos desafios ambientais estão ligados ao descarte incorreto de resíduos e à falta de acesso ao saneamento básico. Esses problemas não apenas afetam o meio ambiente, mas também a saúde pública e a qualidade de vida das comunidades. O <strong>Recicla+</strong> é uma págna web voltada à conscientização ambiental, incentivando práticas sustentáveis e o engajamento coletivo para construirmos um futuro mais limpo e justo. Nossa missão é conectar pessoas, tecnologia e informação para transformar hábitos diários em ações impactantes, promovendo a educação ambiental desde a base da sociedade.
         </p>
-        <a href="register.html" class="btn-primary">Acessar plataforma</a>
+        <p class="texto-secundario"><a href="register.html" class="btn-primary">Junte-se a nós</a> e faça a diferença na sua comunidade local!</p>
+        
       </div>
     </section>
-    <br>
+
     <section id="reciclagem" class="section">
       <div class="container">
-        <h2><i class="fa-solid fa-recycle"></i> Reciclagem Responsável</h2>
+        <h2><i class="fa-solid fa-recycle" aria-hidden="true"></i> Reciclagem Responsável</h2>
         <p>
-          Segundo dados do SNIS e reportagens recentes, apenas cerca de <strong>2% dos resíduos sólidos urbanos (RSU)</strong> produzidos no Brasil são efetivamente reciclados.
-          Isso representa um desperdício enorme de materiais que poderiam voltar à cadeia produtiva.
+          A reciclagem é um dos pilares da economia circular, reduzindo o impacto ambiental e gerando emprego e renda para milhares de famílias. De acordo com dados oficiais do Sistema Nacional de Informações sobre Saneamento (SNIS) e levantamentos setoriais, a taxa de reciclagem no Brasil ainda é baixa, em torno de 3% dos resíduos sólidos urbanos, frente ao potencial de reaproveitamento de até 70% dos materiais descartados. Isso representa não só uma perda econômica, mas também um agravamento da poluição de solos e rios devido ao acúmulo em aterros sanitários.
         </p>
+        <span class="destaque">Milhões de toneladas de resíduos são geradas anualmente no país, e ações simples como a separação correta podem mudar esse cenário drasticamente!</span>
+        <p>
+          Relatórios setoriais apontam que parcela significativa dos resíduos é destinada de forma inadequada, o que representa um desafio urgente, mas também uma oportunidade para impulsionar a economia circular. Iniciativas como cooperativas de catadores e programas de logística reversa estão ganhando força, criando empregos formais e promovendo a inclusão social. Ao reciclar, não só preservamos recursos naturais, como água e energia, mas também reduzimos as emissões de gases de efeito estufa associadas à produção de novos materiais.
+        </p>
+
         <div class="cards">
-          <div class="card">
-            <img src="./assets/ColetaSeletiva.png" alt="Coleta seletiva" height="50" width="50">
-            <h3>Coleta Seletiva</h3>
+          <article class="card">
+            <div class="topic-line">
+              <img src="./assets/ColetaSeletiva.png" alt="Ícone de coleta seletiva" height="50" width="50" class="icon-topic">
+              <h3>Coleta Seletiva</h3>
+            </div>
             <p>
-              A coleta seletiva consiste em separar na fonte (em casa, nas empresas) os materiais recicláveis (papel, plástico, vidro, metal), para que possam ser reaproveitados.
+              Separar corretamente os resíduos na fonte (residência, comércio e indústria) é o primeiro passo para aumentar a recuperação de materiais. Papel, plástico, vidro e metal devem ser encaminhados aos pontos de coleta seletiva ou aos coletores municipais. Essa prática simples evita a contaminação cruzada e maximiza o valor dos materiais recicláveis.
             </p>
-          </div>
-          <div class="card">
-            <img src="./assets/EXcoleta.png" alt="Reciclagem de plástico" height="200" width="350">
+            <ul>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Separe em casa: Use lixeiras coloridas para facilitar.</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Identifique e separe-os para que a coleta seja realizada de maneira adequada.</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Incentive conhecidos: Compartilhe dicas em grupos locais.</li>
+            </ul>
+            <a href="https://www.gov.br/mma/pt-br/assuntos/meio-ambiente-urbano-recursos-hidricos-qualidade-ambiental/residuos-solidos-urbanos" target="_blank" rel="noopener">Guia oficial do MMA sobre resíduos sólidos</a>
+          </article>
+          
+          <article class="card">
+            <figure>
+              <img src="./assets/EXcoleta.png" alt="Exemplo de reciclagem de plástico" height="200" width="350">
+              <figcaption>Coleta seletiva</figcaption>
+            </figure>
+            
             <h3>Reciclagem de Plástico</h3>
             <p>
-              Plásticos descartados inadequadamente acabam em rios e mares, causando impacto ambiental grave. Reutilizar e reciclar é essencial para reduzir essa poluição.
+              O plástico é um dos resíduos que mais desafia a economia circular: grande volume produzido globalmente, com apenas 9% sendo reciclado, segundo o <a href="https://www.unep.org/pt-br/noticias-e-reportagens/comunicado-de-imprensa/relatorio-da-onu-sobre-poluicao-plastica-alerta-sobre" target="_blank" rel="noopener">Programa das Nações Unidas para o Meio Ambiente</a> (PNUMA). No Brasil, o cenário é similar, com plásticos ocupando espaço excessivo em oceanos e aterros. Reduzir o consumo de itens descartáveis, reutilizar embalagens e encaminhar adequadamente para reciclagem são ações essenciais para mitigar esse problema. Além disso, inovações como plásticos biodegradáveis e campanhas de redução estão emergindo como soluções promissoras.
             </p>
-          </div>
+            <figure>
+              <img src="assets/reciclagem-de-plastico-processo.jpg" alt="Processo de reciclagem do plástico" height="300" width="500">
+              <figcaption>Processo de reciclagem do plástico</figcaption>
+            </figure>
+            
+          </article>
         </div>
       </div>
     </section>
-    <br>
-    <section id="saneamento" class="section bg-light">
+
+    <section id="guia-pratico" class="section bg-light">
       <div class="container">
-        <img src="./assets/Saneamento.png" alt="Saneamento básico" height="50" width="50">
-        <h2><i class="fa-solid fa-faucet-drip"></i> Saneamento como base da dignidade</h2>
-        <p>
-          De acordo com dados do SNIS (Sistema Nacional de Informações sobre Saneamento), cerca de <strong>16% da população brasileira não tem acesso à água tratada</strong>, e <strong>47% não estão ligados à rede de esgoto.</strong>  
-          Isso se traduz em milhões de pessoas sem condições adequadas para higiene, saúde e bem-estar.
-        </p>
-        <img src="./assets/EXsaneamento.png" alt="Sistema de saneamento básico" class="image-full" height="200" width="300">
-        <p>
-          A falta de saneamento contribui para doenças como diarreia, parasitoses, hepatite A e leptospirose. Estudos mostram que para cada <strong>R$ 1,00 investido em saneamento</strong>, há uma economia de até <strong>R$ 4,00 em gastos com saúde pública</strong>.
-        </p>
+        <h2><i class="fa-solid fa-list-check" aria-hidden="true"></i> Guia Prático: O que pode e o que não pode?</h2>
+        <p>Tire suas dúvidas na hora de separar o lixo. A separação correta é fundamental para o sucesso da reciclagem!</p>
+        
+        <div class="guia-container">
+          
+          <article class="guia-card">
+            <h3><i class="fa-solid fa-newspaper" aria-hidden="true"></i> Papel</h3>
+            <ul class="lista-pode">
+              <li>✅ Jornais e revistas</li>
+              <li>✅ Caixas de papelão</li>
+              <li>✅ Folhas de caderno</li>
+              <li>✅ Embalagens de papel</li>
+            </ul>
+            <ul class="lista-nao-pode">
+              <li>❌ Guardanapos sujos</li>
+              <li>❌ Papel higiênico</li>
+              <li>❌ Fotografias</li>
+              <li>❌ Fitas adesivas</li>
+            </ul>
+          </article>
+          
+          <article class="guia-card">
+            <h3><i class="fa-solid fa-bottle-water" aria-hidden="true"></i> Plástico</h3>
+            <ul class="lista-pode">
+              <li>✅ Garrafas PET (refrigerante, água)</li>
+              <li>✅ Embalagens de limpeza</li>
+              <li>✅ Potes de alimentos (margarina)</li>
+              <li>✅ Sacolas plásticas</li>
+            </ul>
+            <ul class="lista-nao-pode">
+              <li>❌ Tomadas e cabos</li>
+              <li>❌ Embalagens metalizadas (salgadinho)</li>
+              <li>❌ Adesivos</li>
+              <li>❌ Esponjas</li>
+            </ul>
+          </article>
+          
+          <article class="guia-card">
+            <h3><i class="fa-solid fa-wine-bottle" aria-hidden="true"></i> Vidro</h3>
+            <ul class="lista-pode">
+              <li>✅ Garrafas de bebidas</li>
+              <li>✅ Potes de conserva (azeitona, palmito)</li>
+              <li>✅ Frascos de perfume</li>
+              <li>✅ Copos (comuns)</li>
+            </ul>
+            <ul class="lista-nao-pode">
+              <li>❌ Espelhos</li>
+              <li>❌ Lâmpadas</li>
+              <li>❌ Louças e cerâmicas</li>
+              <li>❌ Vidro temperado (box, telas)</li>
+            </ul>
+          </article>
+          
+          <article class="guia-card">
+            <h3><i class="fa-solid fa-jar" aria-hidden="true"></i> Metal</h3>
+            <ul class="lista-pode">
+              <li>✅ Latinhas de alumínio (refri, cerveja)</li>
+              <li>✅ Latas de aço (milho, sardinha)</li>
+              <li>✅ Tampas de metal</li>
+              <li>✅ Clipes e grampos</li>
+            </ul>
+            <ul class="lista-nao-pode">
+              <li>❌ Esponjas de aço</li>
+              <li>❌ Pilhas e baterias (descarte especial)</li>
+              <li>❌ Latas de tinta</li>
+              <li>❌ Eletrônicos</li>
+            </ul>
+          </article>
+
+        </div>
       </div>
     </section>
-    <br>
+
     <section id="impacto" class="section">
       <div class="container">
-        <h2><i class="fa-solid fa-chart-line"></i> Impacto & Dados Reais</h2>
+        <h2><i class="fa-solid fa-chart-line" aria-hidden="true"></i> Impacto & Dados Reais</h2>
         <p>
-          • O Brasil lançou o <strong>Projeto Tietê</strong>, programa de despoluição do rio Tietê, que já consumiu bilhões e teve fases de avanços e desafios.
-          <br>
-          <br>
-          • Em 2019, 15 projetos ligados a água e saneamento foram finalistas no “Prêmio Cases de Sucesso ODS 6” no Brasil, demonstrando que iniciativas privadas compartilham soluções socioambientais relevantes.
-          <br>
-          <br>
-          • A política brasileira de resíduos sólidos (Lei 12.305/2010) estabelece a responsabilidade compartilhada: geradores, consumidores, empresas e governos devem atuar juntos. Porém, segundo reportagens, muitos municípios ainda destinam até 40% dos resíduos de forma inadequada (lixões).
+          Projetos de despoluição de grandes bacias hidrográficas, como o Tietê em São Paulo ou o Guaíba no Rio Grande do Sul, demandam investimentos públicos e privados ao longo de décadas, mostrando a complexidade da gestão ambiental urbana. Esses esforços já resultaram em melhorias significativas, como a redução de 80% da carga poluente no Tietê desde 1992, mas desafios persistem com o crescimento populacional e mudanças climáticas.
         </p>
+        <ol>
+          <li><a href="https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/programa-projetos-acoes-obras-atividades/combate-ao-lixo-no-mar" target="_blank" rel="noopener">Política Nacional de Resíduos Sólidos</a> (Lei nº 12.305/2010) estabelece responsabilidade compartilhada entre governos, produtores e consumidores, fomentando a logística reversa e a inclusão de catadores na cadeia produtiva.</li>
+          <li>Relatórios setoriais da Associação Brasileira de Empresas de Limpeza Pública e Resíduos Especiais (Abrelpe) reúnem dados consolidados sobre geração, reciclagem e destinação dos resíduos no Brasil, destacando que 42 milhões de toneladas de resíduos sólidos são gerados por ano, com apenas 1,4% reciclados.</li>
+          <li>Iniciativas locais, como programas de compostagem comunitária, reduzem o volume de orgânicos em aterros em até 50%, transformando lixo em adubo para agricultura urbana.</li>
+          <li>O impacto econômico é notável: a reciclagem gera R$ 12 bilhões anuais em renda para 800 mil catadores, segundo o Ministério do Meio Ambiente.</li>
+        </ol>
+        
       </div>
     </section>
-    <br>
+
+    <section id="comunidade" class="section bg-light">
+      <div class="container">
+        <h2><i class="fa-solid fa-users" aria-hidden="true"></i> Ações na Comunidade Local</h2>
+        <p>
+          O Recicla+ vai além da informação: Incentivamos e te ataulizamos sobre ações e ideias para promover um planeta mais limpo, ecológico e sustentável.
+        </p>
+        <ul class="lista-comunidade">
+          <li><span class="destaque-local"><a href="https://ufpr.br/agenda-eventos/mutirao-de-limpeza-de-praias-convoca-voluntarios/">Mutirões de  Limpeza</a>:</span> Junte-se a limpezas coletivas.</li>
+          <li><span class="destaque-local"><a href="https://oeco.org.br/noticias/28338-como-fazer-artesanato-com-material-reciclavel/">Workshops gratuitos</a>:</span> Aprenda a fazer artesanato com materiais reciclados.</li>
+          <li><span class="destaque-local"><a href="https://www.iat.pr.gov.br/servicos/Meio-Ambiente/Policia-Ambiental/Denunciar-crime-ambiental-JGoMV8N0">Denúncias</a>:</span> Denuncie o descarte inadequado.</li>
+        </ul>
+        
+      </div>
+    </section>
+
     <section id="ods" class="section">
       <div class="container">
-        <h2><i class="fa-solid fa-globe"></i> Conexão com os ODS da ONU</h2>
+        <h2><i class="fa-solid fa-globe" aria-hidden="true"></i> Conexão com os ODS da ONU</h2>
         <p>
-          Inspiramo-nos nos seguintes Objetivos de Desenvolvimento Sustentável (ODS) para orientar nossas ações:
+          O Recicla+ está alinhado aos Objetivos de Desenvolvimento Sustentável (ODS) da ONU, em especial o ODS 12, mas também contribui para o ODS 11 (Cidades e Comunidades Sustentáveis) ao promover urbanismo ecológico. Esses objetivos, adotados em 2015, guiam ações globais até 2030 para erradicar a pobreza e proteger o planeta. No contexto brasileiro, o Plano de Ação Nacional para os ODS integra essas metas às políticas públicas, com foco em inclusão social e preservação ambiental.
         </p>
-        <ul class="ods-list">
-          <a href="https://brasil.un.org/pt-br/sdgs/6">
-            <img src="./assets/SDG-6.svg" alt="ODS 6" height="100" width="100">
-          <li><strong>ODS 6:</strong> Água potável e saneamento — garantir acesso universal à água e saneamento seguros.</li>
-          </a>
-          <br>
-          <a href="https://brasil.un.org/pt-br/sdgs/12">
-            <img src="./assets/SDG-12.svg" alt="ODS 12" height="100" width="100">
-          <li><strong>ODS 12:</strong> Consumo e produção responsáveis — reduzir geração de resíduos, promover reciclagem e reutilização.</li>
-          </a>
+        <ul class="ods">
+          <li>
+            <a href="https://brasil.un.org/pt-br/sdgs/12"><img src="./assets/SDG-12.svg" alt="Ícone ODS 12: Consumo e produção responsáveis" height="80" width="80"></a>
+            <br>
+            <strong>ODS 12:</strong> Consumo e produção responsáveis — reduzir desperdício global de alimentos pela metade e promover reciclagem, com metas para minimizar resíduos perigosos.  
+          </li>
         </ul>
         <p>
-          Nosso propósito é contribuir para essas metas, promovendo educação ambiental, boas práticas e engajamento comunitário.
+          Educação ambiental, logística reversa e políticas públicas integradas são caminhos práticos para contribuir com essas metas.
         </p>
-        <a href="https://brasil.un.org/pt-br/sdgs" target="_blank" class="btn-secondary">Saiba mais sobre as ODS</a>
+        <a href="https://brasil.un.org/pt-br/sdgs" target="_blank" rel="noopener" class="btn-secondary">Explore todos os ODS</a>
       </div>
     </section>
   </main>
-    <br>
+
   <footer class="footer">
     <div class="container">
       <p>© 2025 Recicla+ | Desenvolvido por Artur Gouvea Bertoluci e Felipe Nunino Scalice</p>
       <p>
         Currículos:
-        <a href="https://www.linkedin.com/in/arturgouveabertoluci/" target="_blank">Artur Gouvea Bertoluci</a> |
-        <a href="https://www.linkedin.com/in/felipenscalice" target="_blank">Felipe Nunino Scalice</a> 
+        <a href="currículos/Artur/curriculo.html" target="_blank" rel="noopener">Artur Gouvea Bertoluci</a> |
+        <a href="#" target="_blank" rel="noopener">Felipe Nunino Scalice</a>
       </p>
     </div>
   </footer>

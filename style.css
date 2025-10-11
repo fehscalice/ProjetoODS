@@ -88,3 +88,33 @@ input::placeholder {
     color: rgb(118, 118, 118);
 
 }
+
+
+.topic-line {
+  display: flex;                
+  align-items: center;         
+  justify-content: flex-start;  
+  margin-bottom: 15px;          
+  margin-top: 10px;            
+}
+
+
+.icon-topic {
+  flex-shrink: 0;              
+  height: 50px;
+  width: 50px;
+  vertical-align: middle;       
+}
+
+.topic-line h2,
+.topic-line h3 {
+  margin: 0;                    
+  flex: 1;                      
+  line-height: 1.2;             
+  font-weight: bold;           
+}
+
+.card .topic-line {
+  padding-left: 0;              
+  margin-left: 0;
+}
