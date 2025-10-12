@@ -1,24 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-.body_cadastro {
+* {
     margin: 0;
-    padding-top: 10px;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.body_cadastro, .body_login {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: black;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    height: 100vh;
 }
 
-.pag_cadastro {
+.cadastro, .login {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
     border: 1px solid rgb(54, 54, 54);
     padding: 40px;
+    gap: 15px;
 }
 
 .logoRecicla {
@@ -28,7 +31,6 @@
 
 form {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 6px;
@@ -38,55 +40,66 @@ form {
     padding: 9px 0 7px 8px;
     border: 1px solid rgb(118, 118, 118);
     background-color: #121212;
+    color: white;   
     border-radius: 2px;
     height: 20px;
     width: 250px;
+    font-size: 13px;
 }
 
 input::placeholder {
     color: rgb(160, 160, 160);
-    font-size: 12px;
 }
 
 .submit {
     margin-top: 20px;
     background-color: rgba(204, 245, 234, 0.5);
-    color: rgba(12, 13, 14, 1);
+    color: black;
     height: 32px;
     width: 268px;
-    border: 0px none white;
+    border: none;
     border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
 }
 
-.conectar-se {
+.conectar, .cadastrar {
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
     margin-top: 10px;
-    color: white;
-    font-size: 14px;
     border: 1px solid rgb(54, 54, 54);
     width: 348px;
     padding: 20px 0px;
 }
 
-.conectar-se p {
+.conectar {
+    flex-direction: column;
+}
+
+.cadastrar {
+    flex-direction: row;
+    gap: 4px;
+}
+
+.conectar p, .cadastrar p {
     margin: 0;
+    color: white;
+    font-size: 14px;
 }
 
 #conectar {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     color: rgba(204, 245, 234, 0.5);
 }
 
-.footer_cadastro {
-    margin: 10px;
+.footer_cadastro, .footer_login {
+    position: absolute;
+    bottom: 20px;
     font-size: 14px;
     color: rgb(118, 118, 118);
-
 }
 
 
