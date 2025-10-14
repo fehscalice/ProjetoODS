@@ -1,4 +1,5 @@
 <img src="./assets/logoRecicla+Branco.png" alt="Logo Recicla+" height="100" width="100">
+
 # ♻️ Recicla+
 
 ## Objetivo do Projeto
@@ -28,9 +29,9 @@ Contém informações educativas sobre: - O que é o projeto **Recicla+** -
 Reciclagem responsável - Coleta seletiva - Guia de separação (papel,
 plástico, vidro e metal) - Conexão com os ODS da ONU
 
-Inclui: - Cabeçalho e menu de navegação
+Inclui: - Cabeçalho e menu de navegação\
 - Imagens ilustrativas
--  Ícones (Font Awesome)
+- Ícones (Font Awesome)
 - Rodapé com links para currículos dos autores
 
 ### Página de Login (`login.html`)
