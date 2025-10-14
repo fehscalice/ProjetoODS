@@ -1,4 +1,4 @@
-![Ilustração de Coleta Seletiva](./assets/logoRecicla+.png)
+<img src="./assets/logoRecicla+Branco.png" alt="Logo Recicla+" height="100" width="100">
 # ♻️ Recicla+
 
 ## Objetivo do Projeto
