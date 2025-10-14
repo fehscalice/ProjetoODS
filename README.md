@@ -1,4 +1,4 @@
-![Logo Recicla+](".assets/logoRecicla+.png")
+![Ilustração de Coleta Seletiva](./assets/logoRecicla+.png)
 # ♻️ Recicla+
 
 ## Objetivo do Projeto
