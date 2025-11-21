@@ -404,3 +404,108 @@ h2, h3 {
     text-align: center;
     margin-top: auto;
 }
+
+
+.admin-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.admin-page h2,
+.admin-page h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(204, 245, 234, 0.8);
+    margin-bottom: 20px;
+}
+
+#userForm {
+    max-width: 480px;
+}
+
+#userForm input {
+    width: 100%;
+}
+
+/* Botões principais */
+#btnCadastrar,
+#btnLimpar {
+    flex: 1;
+    height: 32px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#btnCadastrar {
+    background-color: rgba(204, 245, 234, 0.5);
+    border: none;
+    color: black;
+}
+
+#btnLimpar {
+    background-color: #333;
+    border: none;
+    color: white;
+}
+
+/* Barra de pesquisa + excluir todos */
+#searchInput {
+    flex: 1;
+    height: 32px;
+}
+
+/* Botão excluir todos */
+#btnExcluirTodos {
+    background-color: #7a1f1f;
+    border: none;
+    border-radius: 8px;
+    padding: 0 15px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Lista */
+#userList {
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;
+}
+
+#userList li {
+    background-color: #0f0f0f;
+    border: 1px solid rgba(255,255,255,0.06);
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Texto da lista */
+#userList li strong {
+    color: rgba(204,245,234,0.8);
+}
+
+#userList li span {
+    display: block;
+    font-size: 12px;
+    margin-top: 4px;
+    color: #bdbdbd;
+}
+
+/* Botão excluir item */
+#userList li button {
+    background-color: #7a1f1f;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
