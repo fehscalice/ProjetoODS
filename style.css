@@ -8,13 +8,22 @@ html {
     font-family: "Roboto", sans-serif;
 }
 
-.body_index, .body_login{
+.body_index, .body_login {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: black;
     color: white;
+}
+
+.body_index {
+    min-height: 100vh;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.body_login {
     height: 100vh;
 }
 
@@ -99,10 +108,18 @@ input::placeholder {
 }
 
 .footer_index, .footer_login {
-    position: absolute;
-    bottom: 20px;
     font-size: 14px;
     color: rgb(118, 118, 118);
+}
+
+.footer_index {
+    position: static;
+    margin-top: 40px;
+}
+
+.footer_login {
+    position: absolute;
+    bottom: 20px;
 }
 
 .body_principal {

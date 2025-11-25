@@ -11,7 +11,7 @@ comunitário, alinhando tecnologia e sustentabilidade para informar e
 inspirar mudanças de hábitos.
 
 Este projeto foi desenvolvido como parte da disciplina **Programação Web
-Front-End (HTML & CSS)** da **UTFPR**.
+Front-End (HTML, CSS & JavaScript)** da **UTFPR**.
 
 ## Conexão com os ODS (ONU)
 
@@ -23,7 +23,7 @@ positivo.
 
 ## Estrutura do Site
 
-### Página Principal (`index.html`)
+### Página Principal (`principal.html`)
 
 Contém informações educativas sobre: - O que é o projeto **Recicla+** -
 Reciclagem responsável - Coleta seletiva - Guia de separação (papel,
@@ -34,12 +34,22 @@ Inclui: - Cabeçalho e menu de navegação\
 - Ícones (Font Awesome)
 - Rodapé com links para currículos dos autores
 
+### Página de Administração (`admin.html`)
+
+-   Painel de controle para **gerenciamento de usuários**
+-   Funcionalidades implementadas com **JavaScript**:
+    -   Cadastro de usuários (Nome e E-mail)
+    -   Listagem dinâmica de cadastros com Data e Hora
+    -   Armazenamento de dados no navegador (**LocalStorage**)
+    -   Pesquisa/Filtro de usuários
+    -   Exclusão de itens e limpeza de lista
+
 ### Página de Login (`login.html`)
 
 -   Formulário de autenticação com **e-mail e senha**
 -   Link para redirecionamento à página de cadastro
 
-### Página de Cadastro (`register.html`)
+### Página de Cadastro (`index.html`)
 
 -   Formulário com **5 campos obrigatórios**:
     -   Nome completo
@@ -53,11 +63,13 @@ Inclui: - Cabeçalho e menu de navegação\
 
   Tecnologia                               Uso
   ---------------------------------------- ----------------------------------
-  **HTML5**                                Estrutura e conteúdo das páginas
-  **CSS3**                                 Estilização e responsividade
-  **Google Fonts (Roboto / Montserrat)**   Tipografia
-  **Font Awesome**                         Ícones
-  **GitHub Pages**                         Publicação (quando aplicado)
+  **HTML5** Estrutura e conteúdo das páginas
+  **CSS3** Estilização e responsividade
+  **JavaScript (ES6)** Lógica, DOM e Manipulação de Dados
+  **Web Storage API** Banco de dados local (LocalStorage)
+  **Google Fonts (Roboto / Montserrat)** Tipografia
+  **Font Awesome** Ícones
+  **GitHub Pages** Publicação (quando aplicado)
 
 ## 🗂 Estrutura de Pastas
 
@@ -86,25 +98,27 @@ Inclui: - Cabeçalho e menu de navegação\
     │   │   └── style.css
     │
     ├── README.md
+    ├── admin.html
+    ├── admin.js
     ├── index.html
     ├── login.html
-    ├── register.html
+    ├── principal.html
     └── style.css
 
 
 ## Melhorias Futuras
 
--   Implementação de JavaScript (Projeto 2)
--   Validação de formulários
--   Cadastro e login funcional
+-   Integração com Backend real (Banco de Dados)
+-   Validação avançada de formulários
+-   Login funcional com autenticação
 -   Página de interação com comunidade
 
 ## Autores
 
   Integrante                   Função
   ---------------------------- --------------------------------------
-  **Artur Gouvea Bertoluci**   Desenvolvimento Front-End / Conteúdo
-  **Felipe Nunino Scalice**    Desenvolvimento Front-End / Estrutura
+  **Artur Gouvea Bertoluci** Desenvolvimento Front-End / Conteúdo
+  **Felipe Nunino Scalice** Desenvolvimento Front-End / Estrutura
 
     Currículos disponíveis no rodapé do site.
 
