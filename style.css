@@ -8,7 +8,7 @@ html {
     font-family: "Roboto", sans-serif;
 }
 
-.body_cadastro, .body_login{
+.body_index, .body_login{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,14 +98,14 @@ input::placeholder {
     color: rgba(204, 245, 234, 0.5);
 }
 
-.footer_cadastro, .footer_login {
+.footer_index, .footer_login {
     position: absolute;
     bottom: 20px;
     font-size: 14px;
     color: rgb(118, 118, 118);
 }
 
-.body_index {
+.body_principal {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -118,43 +118,43 @@ h2, h3 {
     font-family: "Montserrat", sans-serif;
 }
 
-.header_index {
+.header_principal {
     display: flex;
     align-items: center;
     padding: 10px 5%;
     border-bottom: 3px solid rgba(204, 245, 234, 0.5);
 }
 
-.header_index img {
+.header_principal img {
     width: 80px; 
     height: 80px;
 }
 
-.header_index nav {
+.header_principal nav {
     margin: 0 auto;
     display: flex;
     gap: 40px;
 }
 
-.header_index nav a {
+.header_principal nav a {
     color: white;
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
 }
 
-.header_index nav a:hover {
+.header_principal nav a:hover {
     color: rgba(204, 245, 234, 0.8);
 }
 
-.main_index {
+.main_principal {
     width: 90%;
     margin: 0 auto;
     padding: 60px 5%;
     flex: 1;
 }
 
-.main_index section {
+.main_principal section {
     display: flex;
     align-items: center;
     gap: 60px;
@@ -188,7 +188,7 @@ h2, h3 {
     height: auto    ;
 }
 
-.body_index strong {
+.body_principal strong {
     color: rgba(204, 245, 234, 0.8);
 }
 
@@ -356,7 +356,7 @@ h2, h3 {
     color: black;
 }
 
-.footer_index {
+.footer_principal {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -398,114 +398,168 @@ h2, h3 {
     margin: 0;
 }
 
-.footer_index p {
+.footer_principal p {
     font-size: 14px;
     color: rgb(118, 118, 118);
     text-align: center;
     margin-top: auto;
 }
 
-
-.admin-page {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px 0;
-}
-
-.admin-page h2,
-.admin-page h3 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 32px;
+.nav_admin {
     font-weight: 700;
     color: rgba(204, 245, 234, 0.8);
-    margin-bottom: 20px;
+    text-decoration: underline;
 }
 
-#userForm {
-    max-width: 480px;
+.admin_section {
+    display: flex;
+    justify-content: center;
+    min-height: auto;
+    margin-bottom: 50px;
 }
 
-#userForm input {
+.admin_content {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin_content h2 {
+    color: rgba(204, 245, 234, 0.8);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.admin_content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+}
+
+.form_admin {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.admin_botoes {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
     width: 100%;
 }
 
-/* Botões principais */
-#btnCadastrar,
-#btnLimpar {
+.admin_botao_cadastro {
     flex: 1;
-    height: 32px;
-    border-radius: 8px;
-    font-weight: 600;
-    cursor: pointer;
 }
 
-#btnCadastrar {
-    background-color: rgba(204, 245, 234, 0.5);
-    border: none;
-    color: black;
-}
-
-#btnLimpar {
+.admin_botao_limpar {
+    flex: 1;
     background-color: #333;
-    border: none;
     color: white;
+    border: 1px solid rgb(54, 54, 54);
 }
 
-/* Barra de pesquisa + excluir todos */
-#searchInput {
-    flex: 1;
-    height: 32px;
+.admin_botao_limpar:hover {
+    background-color: #444;
 }
 
-/* Botão excluir todos */
-#btnExcluirTodos {
+.botao_excluir {
     background-color: #7a1f1f;
-    border: none;
-    border-radius: 8px;
-    padding: 0 15px;
     color: white;
-    font-weight: 600;
-    cursor: pointer;
+    width: auto;
+    padding: 0 15px;
+    margin: 0;
 }
 
-/* Lista */
-#userList {
+.btn_excluir:hover {
+    background-color: #a83232;
+}
+
+.admin_separador {
+    border: 0;
+    border-top: 1px solid rgb(54, 54, 54);
+    margin: 40px 0;
+    width: 100%;
+}
+
+.admin_lista_cadastro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.admin_lista_cadastro h3 {
+    color: rgba(204, 245, 234, 0.8);
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+.admin_pesquisa {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.campo_pesquisa {
+    flex: 1;
+    width: auto;
+}
+
+.lista_usuarios {
     list-style: none;
-    margin-top: 30px;
     padding: 0;
+    width: 100%;
 }
 
-#userList li {
-    background-color: #0f0f0f;
-    border: 1px solid rgba(255,255,255,0.06);
-    padding: 12px;
-    border-radius: 6px;
+.item_lista {
+    background-color: #121212;
+    border: 1px solid rgb(54, 54, 54);
+    padding: 15px;
     margin-bottom: 10px;
-
+    border-radius: 6px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* Texto da lista */
-#userList li strong {
-    color: rgba(204,245,234,0.8);
+.item_lista div {
+    display: flex;
+    flex-direction: column;
 }
 
-#userList li span {
-    display: block;
-    font-size: 12px;
-    margin-top: 4px;
-    color: #bdbdbd;
+.item_lista strong {
+    color: rgba(204, 245, 234, 0.8);
+    font-size: 16px;
+    margin-bottom: 4px;
 }
 
-/* Botão excluir item */
-#userList li button {
-    background-color: #7a1f1f;
+.item_lista span {
+    font-size: 13px;
+    color: #9a9a9a;
+}
+
+.botao_lixeira {
+    background: none;
     border: none;
-    padding: 6px 12px;
-    border-radius: 6px;
-    color: white;
-    font-weight: 600;
+    color: #7a1f1f;
+    font-size: 16px;
     cursor: pointer;
+    padding: 8px;
+    transition: color 0.3s;
+}
+
+.botao_lixeira:hover {
+    color: #ff4d4d;
 }

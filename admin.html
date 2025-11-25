@@ -1,65 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" type="image/png" href="./assets/logoRecicla+Branco.png" />
-  <title>Recicla+ | Admin</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./assets/logoRecicla+Branco.png">
+    <title>Recicla+ | Admin</title>
 </head>
 
-<body class="body_index">
-
-  <header class="header_index">
-    <img src="./assets/logoRecicla+Branco.png" alt="Logo Recicla+ Branco" />
+<body class="body_principal">
+  <header class="header_principal">
+    <a href="principal.html">
+      <img src="./assets/logoRecicla+Branco.png" alt="Logo Recicla+ Branco">
+    </a>
     <nav>
-      <a href="principal.html">Início</a>
-      <a href="principal.html#reciclagem">Reciclagem</a>
-      <a href="principal.html#coleta">Coleta</a>
+      <a href="principal.html#inicio">O que somos?</a>
+      <a href="principal.html#reciclagem">Reciclagem Responsável</a>
+      <a href="principal.html#coleta">Coleta Seletiva</a>
       <a href="principal.html#guia">Guia</a>
       <a href="principal.html#ods">ODS</a>
-      <a href="admin.html" style="text-decoration:underline;font-weight:700">Admin</a>
+      <a href="admin.html" class="nav_admin">Admin</a>
     </nav>
   </header>
 
-  <main class="main_index">
-
-    <section class="admin_container">
-
-      <h2>Admin - Cadastrar Usuários</h2>
-
-      <form id="userForm">
-
-        <div class="admin_inputs">
-          <input type="text" id="userName" placeholder="Nome do usuário" required class="campo_form" />
-          <input type="email" id="userEmail" placeholder="E-mail" required class="campo_form" />
+  <main class="main_principal">
+    <section class="admin_section">
+      <div class="admin_content">  
+        <h2>Administração de Usuários</h2>
+        <p>Cadastre novos usuários na lista de transmissão.</p>
+        <div class="form_admin">
+          <input type="text" id="nome" placeholder="Nome do usuário" class="campo_form" required>
+          <input type="email" id="email" placeholder="E-mail" class="campo_form" required>
+          
+          <div class="admin_botoes">
+              <input type="button" value="Cadastrar" class="submit admin_botao_cadastro" onclick="cadastrarUsuario()">
+              <input type="button" value="Limpar" id="botao_limpar" class="submit admin_botao_limpar">
+          </div>
         </div>
-
-        <div class="admin_buttons">
-          <button type="submit" id="btnCadastrar" class="btn_admin">Cadastrar</button>
-          <button type="button" id="btnLimpar" class="btn_admin_dark">Limpar</button>
+        <div class="admin_separador"></div>
+        <div class="admin_lista_cadastro">
+          <h3>Lista de Cadastros</h3>
+          <div class="admin_pesquisa">
+            <input type="text" id="pesquisa" placeholder="Pesquisar..." class="campo_form campo_pesquisa" onkeyup="pesquisar()">
+            <button id="botao_excluir" class="submit botao_excluir">Excluir Todos</button>
+          </div>
+          <ul id="lista_usuarios" class="lista_usuarios"></ul>
         </div>
-
-      </form>
-
-      <div class="admin_tools">
-        <input type="text" id="searchInput" placeholder="Pesquisar por nome ou e-mail" class="campo_form" />
-        <button id="btnExcluirTodos" class="btn_admin">Excluir todos</button>
       </div>
-
-      <h3>Lista de cadastros</h3>
-
-      <ul id="userList"></ul>
-
     </section>
-
   </main>
 
-  <footer class="footer_index">
+  <footer class="footer_principal">
     <p>© 2025 Recicla+ | Desenvolvido por Artur Gouvea Bertoluci e Felipe Nunino Scalice</p>
   </footer>
 
   <script src="admin.js"></script>
-
 </body>
 </html>
