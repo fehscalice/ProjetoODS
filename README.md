@@ -117,8 +117,8 @@ Inclui: - Cabeçalho e menu de navegação\
 
   Integrante                   Função
   ---------------------------- --------------------------------------
-  **Artur Gouvea Bertoluci** Desenvolvimento Front-End / Conteúdo
-  **Felipe Nunino Scalice** Desenvolvimento Front-End / Estrutura
+  **Artur Gouvea Bertoluci** Desenvolvimento Front-End / Conteúdo / Lógica .js
+  **Felipe Nunino Scalice** Desenvolvimento Front-End / Estrutura / Estilização
 
     Currículos disponíveis no rodapé do site.
 
